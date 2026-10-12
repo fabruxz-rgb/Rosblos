@@ -53,5 +53,44 @@
     "microphone": "rdp_capture_enabled",
     "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
+  },
+  "samp": {
+    "samp_installed": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "play_tested": false,
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "netfx3": "Enabled",
+    "status": "dependencies_ready",
+    "directx": "verified_x86_x64",
+    "directplay": "Enabled",
+    "gta_installed": false
+  },
+  "games": {
+    "roblox": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "game_dir": null,
+      "samp_installed": false,
+      "gta_installed": false,
+      "status": "dependencies_ready"
+    },
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    }
+  },
+  "game_environment": {
+    "os": "Microsoft Windows Server 2025 Datacenter",
+    "windows_server": true,
+    "runner": "windows-2025",
+    "play_tested": false,
+    "hypervisor_present": true
   }
 }
